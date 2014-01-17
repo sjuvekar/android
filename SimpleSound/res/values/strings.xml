@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Sound</string>
+    <string name="action_settings">Settings</string>
+    <string name="lyrics">
+        Once upon a time you dressed so fine\n
+		You threw the bums a dime in your prime, didn\'t you ?\n
+		People\'d call, say, "Beware doll, you\'re bound to fall"\n
+		You thought they were all kiddin\' you\n
+		You used to laugh about\n
+		Everybody that was hangin\' out\n
+		Now you don\'t talk so loud\n
+		Now you don\'t seem so proud\n
+		About having to be scrounging for your next meal.\n
+		\n
+		How does it feel\n
+		How does it feel\n
+		To be without a home\n
+		Like a complete unknown\n
+		Like a rolling stone ?\n
+    </string>
+
+    <string name="icon">Icon</string>
+
+    <string name="google">Google</string>
+
+    <string name="facebook">Facebook</string>
+</resources>
