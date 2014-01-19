@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Coin of Life: The most addictive coin game ever!
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
+    <link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
+    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" el="stylesheet" type="text/css">
+    <style>
+      body { 
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */ 
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif; 
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+      </script>
+    <![endif]-->
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+  <body>
+    <div class="navbar-wrapper">
+    	<div class="container">
+    		<div class="navbar navbar-inverse">
+    			<div class="navbar-inner">
+    				<h1 class="text-center" id="navbar-h1">
+    					Coin of Life
+    				</h1>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div id="myCarousel" class="container carousel slide" data-pause="remove">
+    	<div class="carousel-inner">
+    		<div class="item active" style="background-image: url('https://dl.dropboxusercontent.com/u/69791784/Coin%20of%20Life/images/main%20background.png')">
+    			<div class="container">
+    				<div class="carousel-caption">
+				    <h1> 
+				      The most addictive coin game ever!
+    				    </h1>
+    				
+    				</div>
+    			</div>
+    		</div>
+    		<div class="item" style="background-image: url('https://dl.dropboxusercontent.com/u/69791784/Coin%20of%20Life/images/main%20background.png')">
+    			<div class="container">
+    				<div class="carousel-caption">
+				    <h1> 
+				      The most addictive coin game ever!
+    				    </h1>
+    				
+    				</div>
+    			</div>
+    		</div>
+
+    	</div>
+    	<a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+    	<a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+    </div>
+    <div class="container marketing">
+    	<div class="row">
+    		<div class="span6">
+		  <div class="row-fluid">
+		    <div class="span6 badges">
+		      <div class="pagination-centered">
+			<img src="https://dl.dropboxusercontent.com/u/69791784/Coin%20of%20Life/images/coin.png" alt="diamond">
+		      </div>
+		      <h2 class="text-center">
+    			Get it
+    		      </h2>
+		      <div class="pagination-centered">
+    			<a href="https://itunes.apple.com/us/app/coin-of-life/id796742280?ls=1&mt=8" target="_blank">
+			  <img src="https://dl.dropboxusercontent.com/u/69791784/Coin%20of%20Life/images/apple.png" width="200">
+			</a>
+		      </div>    		    
+		    </div>
+		    <div class="span6 badges">
+		      <div class="pagination-centered">
+			<img src="https://dl.dropboxusercontent.com/u/69791784/Coin%20of%20Life/images/diamond.png" alt="diamond">
+		      </div>		      
+		      <h2 class="text-center">
+    				Play it
+    		      </h2>
+		      <div class="pagination-centered">
+			<a href="https://play.google.com/store/apps/details?id=com.ramsud.coinoflife" target="_blank">
+    			  <img src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png">
+			</a>
+		      </div>		    
+		    </div>
+    		  </div>
+    		</div>
+
+		<!-- /.span6 -->
+		<div class="span6 actions">
+		  <div class="row-fluid statistics">
+		    <!-- Statistics -->
+		    <div class="span4">
+		      <div class="linediv-l">
+			<h3>
+			  1000
+			  </h3>
+			<p>
+			  backers
+			  </p>
+			</div>
+		      </div>
+		    <div class="span4">
+		      <div class="linediv-c">
+			<h3>
+			  $6000
+			  </h3>
+			<p>
+			  of $10,000
+			  </p>
+			</div>
+		      </div>
+		    <div class="span4">
+		      <div class="linediv-r">
+			<h3>
+			  10
+			  </h3>
+			<p>
+			  days left
+			  </p>
+			</div>
+		      </div>
+		    <!-- Bootstrap progress bar -->
+		    <div class="row-fluid">
+		        <div class="span10 offset1">
+			  <div class="thermometer progress active">
+			    <div class="bar" style="width: 60%;">
+			      </div>
+			    <div class="bar bar-warning" style="width: 40%;">
+			      </div>
+			    </div>
+			    </div>
+			</div>
+
+		    <div class="span6 offset3 order">
+		        <a class="coinbase-button" data-code="d7419da9759fe47e3c9f35021bbc7d0a" 
+			        data-button-style="custom_large" 
+			        data-button-text="Pay with Bitcoin"
+			        href="https://coinbase.com/checkouts/d7419da9759fe47e3c9f35021bbc7d0a">
+			      Pay With Bitcoin
+			        </a>
+			  <script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
+			  </div>
+
+		    <!-- AddThis Button BEGIN -->
+		    <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+		        <a class="addthis_button_preferred_1"></a>
+			  <a class="addthis_button_preferred_2"></a>
+			    <a class="addthis_button_compact"></a>
+			      <a class="addthis_counter addthis_bubble_style"></a>
+			      </div>
+		    <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+		    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fa8a5c592496a2"></script>
+		    <!-- AddThis Button END -->
+		    </div>
+		  </div>
+		<!-- /.span6 -->
+    	</div>
+
+    	<hr class="featurette-divider">
+    	<div class="featurette">
+    		<img class="featurette-image pull-right" src="https://dl.dropboxusercontent.com/u/69791784/Coin%20of%20Life/images/patterns.png">
+    		<h2 class="featurette-heading">
+    			What is Coin of Life?
+			<span class="muted">
+			  It's a simple board game involving coins.. that's all!
+			</span>
+    		</h2>
+    		<p class="lead">
+    			Coin of Life is a game based on Conway's <i>Game of Life </i> cellular automata. You start by placing some coins on an empty board.
+    			The coins <i>grow</i> by one golden rule:
+    		</p>
+		<p class="lead">
+		  <b><i>A cell with two or three neighboring coins generates a new coin, otherwise it destroys its own coin!</i></b>
+		</p>
+		<p class="lead">
+    		  Wow, that sounds complicated but it's not! Tap the tutorial link on the main screen to get a hang of it! 
+		  Plus, here are some patterns you can place on the board to earn you more coins!
+    		</p>
+    	</div>
+    	<hr class="featurette-divider">
+    	<div class="featurette">
+    		<img class="featurette-image pull-left" src="https://dl.dropboxusercontent.com/u/69791784/Coin%20of%20Life/images/allrewards.png">
+    		<h2 class="featurette-heading">
+    			Ready to play the game? 
+			<span class="muted"> There's more! </span>
+    		</h2>
+    		<p class="lead">
+    			Every billion coins earned on Coin of Life gives you special goodies! Although
+    			it appears a lot, you'll be surprised how quickly you accumulate coins!
+    		</p>
+		<p class="lead">
+    			There are some additional goodies! Earn gems, rocks and diamonds to multiply
+    			your coins! 
+    		</p>
+    	</div>
+
+    	<hr class="featurette-divider">
+    	<footer>
+    		<p class="pull-right">
+    			<a href="#">Back to top</a>
+    		</p>
+    		<p>
+    			© 2013 RamSud Labs, Inc.
+    			<a href="#">Privacy</a>
+    			·
+    			<a href="#">Terms</a>
+    		</p>
+    	</footer>
+    </div>
+
+    <style>   
+      
+      /* GLOBAL STYLES
+      -------------------------------------------------- */
+      /* Lighter body text */
+      
+      body {
+        color: #5a5a5a;
+      }
+      
+      
+      
+      /* CUSTOMIZE THE NAVBAR
+      -------------------------------------------------- */
+      
+      /* Special class on .container surrounding .navbar, used for positioning it into place. */
+      .navbar-wrapper {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 10;
+        margin-top: 20px;
+        margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+      }
+      
+      /* Remove border and change up box shadow for more contrast */
+      .navbar .navbar-inner {
+        border: 0;
+        -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+        -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+        box-shadow: 0 2px 10px rgba(0,0,0,.25);
+      }
+      
+      /* Downsize the brand/project name a bit */
+      .navbar .brand {
+        padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+        font-size: 16px;
+        font-weight: bold;
+        text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+      }
+      
+      /* Navbar links: increase padding for taller navbar */
+      .navbar .nav > li > a {
+        padding: 15px 20px;
+      }
+      
+      /* Offset the responsive button for proper vertical alignment */
+      .navbar .btn-navbar {
+        margin-top: 10px;
+      }
+      
+      
+      
+      /* CUSTOMIZE THE CAROUSEL
+      -------------------------------------------------- */
+      
+      /* Carousel base class */
+      .carousel {
+        margin-bottom: 60px;
+      }
+      
+      .carousel .container {
+        position: relative;
+        z-index: 9;
+      }
+      
+      .carousel-control {
+        height: 80px;
+        margin-top: 0;
+        font-size: 120px;
+        text-shadow: 0 1px 1px rgba(0,0,0,.4);
+        background-color: transparent;
+        border: 0;
+        z-index: 10;
+      }
+      
+      .carousel .item {
+        height: 500px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+      }
+      
+      .carousel-caption {
+        background-color: transparent;
+        position: static;
+        max-width: 300px;
+        padding: 0 20px;
+        margin-top: 150px;
+        margin-left: 5%;
+      }
+      
+      .carousel-caption h1,
+      .carousel-caption .lead {
+        margin: 0;
+        line-height: 1.25;
+        color: #fff;
+        text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      }
+      
+      .carousel-caption .btn {
+        margin-top: 10px;
+      }
+      
+      
+      
+      /* MARKETING CONTENT
+      -------------------------------------------------- */
+      
+      /* Center align the text within the three columns below the carousel */
+      .marketing .span4 {
+        text-align: center;
+      }
+      
+      .marketing h2 {
+        font-weight: normal;
+      }
+      
+      .marketing .span4 p {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      
+      
+      /* Featurettes
+      ------------------------- */
+      
+      .featurette-divider {
+        margin: 80px 0; /* Space out the Bootstrap <hr> more */
+      }
+      
+      .featurette {
+        padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+        overflow: hidden; /* Vertically center images part 2: clear their floats. */
+      }
+      
+      .featurette-image {
+        margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+      }
+      
+      /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+      .featurette-image.pull-left {
+        margin-right: 40px;
+      }
+      
+      .featurette-image.pull-right {
+        margin-left: 40px;
+      }
+      
+      /* Thin out the marketing headings */
+      .featurette-heading {
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 1;
+        letter-spacing: -1px;
+      'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      
+      
+      
+      /* RESPONSIVE CSS
+      -------------------------------------------------- */
+      
+      @media (max-width: 980px) {
+      
+        .container.navbar-wrapper {
+          margin-bottom: 0;
+          width: auto;
+        }
+      
+        .navbar-inner {
+          border-radius: 0;
+          margin: -20px 0;
+        }
+      
+        .carousel .item {
+          height: 500px;
+        }
+      
+        .carousel img {
+          width: auto;
+          height: 500px;
+        }
+      
+        .featurette {
+          height: auto;
+          padding: 0;
+        }
+      
+        .featurette-image.pull-left,
+        .featurette-image.pull-right {
+          display: block;
+          float: none;
+          max-width: 40%;
+          margin: 0 auto 20px;
+        }
+              
+      }
+      
+      
+      @media (max-width: 767px) {
+      
+        .navbar-inner {
+          margin: -20px;
+        }
+      
+        .carousel {
+          margin-left: -20px;
+          margin-right: -20px;
+        }
+      
+        .carousel .item {
+          height: 300px;
+        }
+      
+        .carousel img {
+          height: 300px;
+        }
+      
+        .carousel-caption {
+          width: 65%;
+          padding: 0 70px;
+          margin-top: 100px;
+        }
+      
+        .carousel-caption h1 {
+          font-size: 30px;
+        }
+      
+        .carousel-caption .lead,
+        .carousel-caption .btn {
+          font-size: 18px;
+        }
+      
+        .marketing .span4 + .span4 {
+          margin-top: 40px;
+        }
+      
+        .featurette-heading {
+          font-size: 30px;
+      'Ubuntu', Helvetica, Arial, sans-serif;
+        }
+      
+        .featurette .lead {
+          font-size: 18px;
+          line-height: 1.5;
+        }
+        
+      }
+      
+      @media (max-width: 767px) {
+        .linediv-l {
+          border-bottom: 1px solid;
+        }
+          
+        .linediv-r {
+          border-top: 1px solid;
+        }
+      }
+
+      @media (min-width: 768px) {
+        .linediv-l {
+          border-right: 1px solid;
+        }
+          
+        .linediv-r {
+          border-left: 1px solid;
+        }
+
+      }
+
+      /* My css */
+      #navbar-h1 {
+        color: #999999;
+      }
+
+      
+       /* Video and pitch and action */
+          .pitch {
+              padding: 2.5% 0%;
+          }
+            
+          .order {
+              padding: 2% 0%;
+          }
+            
+          .actions {
+              background-color: #CCCCCC;
+              padding: 3% 0%;
+          }
+            
+          .badges {
+              padding-top: 5%;
+              padding-bottom: 5%;
+              border:1px solid #999;
+              -moz-border-radius:8px;
+              -webkit-border-radius:8px;
+              -opera-border-radius:8px;
+              -khtml-border-radius:8px; 
+              border-radius:8px;        
+              box-shadow:rgba(0,0,0,0.5) 0px 0px 24px;
+          }
+          .video, .thermometer, .order, .social, .statistics {
+              text-align: center;
+          } 
+          
+          .statistics h3, .statistics p {
+              color: #555555;
+          }
+          
+          .sponsor, .sponsor a {
+              margin-top: 9%;
+          }
+          /* FAQ */
+      .accordion-heading a {
+          color: #666666;
+          font-size: 18px;
+          text-decoration: underline;
+      }
+
+          /* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */
+          div.addthis_toolbox {
+              width: 180px;
+              margin: 0 auto;
+      }
+
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script src="js/bootstrap.js">
+    </script>
+    <script>
+
+    </script>
+  </body>
+</html>
