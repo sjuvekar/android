@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WebPagesInApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_uof_iat_nasa">UOfIAtNasa</string>
+    <string name="title_activity_round_ball">RoundBallActivity</string>
+    <string name="title_activity_jabber_wocky">JabberWockyActivity</string>
+    <string name="wikiButton">Wikipedia</string>
+    <string name="jabberPicture">Picture</string>
+    
+</resources>
