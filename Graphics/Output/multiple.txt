@@ -1,0 +1,2 @@
+02-27 14:06:14.117: I/Lab-Graphics(2947): Creating Bubble at: x:250.0 y:250.0
+02-27 14:06:15.637: I/Lab-Graphics(2947): Creating Bubble at: x:500.0 y:500.0
