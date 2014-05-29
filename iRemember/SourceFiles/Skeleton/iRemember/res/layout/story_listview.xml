@@ -44,13 +44,13 @@ without express written permission from Vanderbilt University or
 University of Maryland. This license grants no permission to call
 products or services derived from the iRemember source, nor does it
 grant permission for the name Vanderbilt University or
-University of Maryland to appear in their names.
--->
+University of Maryland to appear in their names.-->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/storyListViewLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical" >
 
     <!-- Row for Buttons -->
@@ -63,18 +63,21 @@ University of Maryland to appear in their names.
 
         <Button
             android:id="@+id/story_listview_create"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="40dp"
+            android:layout_margin="5dp"
             android:layout_weight="1"
+            android:background="@drawable/roundedrect"
             android:onClick="test"
             android:text="@string/story_list_button_label_add" />
-
     </LinearLayout>
 
     <EditText
         android:id="@+id/story_listview_tags_filter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:ems="10"
         android:hint="@string/story_list_filter_hint" >
 
@@ -84,7 +87,9 @@ University of Maryland to appear in their names.
     <ListView
         android:id="@+id/android:list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent" >
     </ListView>
 
 </LinearLayout>
