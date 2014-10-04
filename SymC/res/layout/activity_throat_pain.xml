@@ -1,0 +1,184 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+     
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+	    <!--  Question: How bad is your throat pain -->
+	    <LinearLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal"
+	       android:layout_margin="32dp"
+	       android:background="#eeeeee">
+	       
+	       <com.beardedhen.androidbootstrap.FontAwesomeText
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="40sp"
+	           fontawesometext:fa_icon="fa-stethoscope" />
+	
+	       <TextView 
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="32sp"
+	           android:text="@string/how_bad_is_your_throat_pain_" />
+	       
+	    </LinearLayout>
+	    <!--  End Question  -->
+	    
+	    <!--  Three Answers -->
+	   	<LinearLayout 
+	   	    android:layout_width="match_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="center" 
+	   	    android:orientation="vertical" >
+	   	    
+	   	    <!--  1) Under Control  -->
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	   	        
+	   	    	<com.beardedhen.androidbootstrap.BootstrapButton
+	   	    	    android:id="@+id/throatRadioControl"
+	   	    	    android:layout_width="wrap_content"
+	   	    	    android:layout_height="wrap_content"
+	   	    	    android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	    	    android:layout_weight="0.5"
+	   	    	    android:text="@string/under_control"
+	   	    	    android:textSize="32sp"
+	   	    	    bootstrapbutton:bb_icon_left="fa-thumbs-up"
+	   	    	    bootstrapbutton:bb_text_alignment="center"
+	   	    	    bootstrapbutton:bb_type="default" />
+	   	    	
+	   	    	<TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	   	        	
+			</LinearLayout>
+	   	    <!--  End of 1) Under Control -->
+	 
+	   	    
+	   	    <!--  2) Moderate -->
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	   	    
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	   	        
+				<com.beardedhen.androidbootstrap.BootstrapButton
+				    android:id="@+id/throatRadioModerate"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_gravity="center"
+				    android:layout_marginBottom="16dp"
+				    android:layout_weight="1"
+				    android:text="@string/moderate"
+				    android:textSize="32sp"
+				    bootstrapbutton:bb_icon_left="fa-meh-o"
+				    bootstrapbutton:bb_text_alignment="center"
+				    bootstrapbutton:bb_type="default" />
+				
+				<TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	   	        
+			</LinearLayout>
+			<!--  End of 2) Moderate -->	
+			
+			<!--  3) Bad  -->
+			<LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	   	    
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	   	    
+	   	        <com.beardedhen.androidbootstrap.BootstrapButton
+	   	            android:id="@+id/throatRadioBad"
+	   	            android:layout_width="wrap_content"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	            android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1.75"
+	   	            android:checked="true"
+	   	            android:text="@string/bad"
+	   	            android:textSize="32sp"
+	   	            bootstrapbutton:bb_icon_left="fa-thumbs-down"
+	   	            bootstrapbutton:bb_text_alignment="center"
+	   	            bootstrapbutton:bb_type="default" />
+	   	        
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	   	        
+			</LinearLayout>
+			<!--  End of 3) Bad -->
+			
+		</LinearLayout>
+	    <!--  End of Three Answers -->
+	    
+	    
+	    <!--  Next Button -->
+	    <com.beardedhen.androidbootstrap.BootstrapButton
+	        android:id="@+id/throatNext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="16dp"
+	        android:layout_gravity="center"
+	        android:padding="16dp"
+	        android:gravity="right"
+	        android:textSize="32sp"
+	        android:text="@string/next"
+	        android:enabled="false"
+	        bootstrapbutton:bb_icon_right="fa-arrow-circle-o-right"
+	        bootstrapbutton:bb_roundedCorners="true"
+	        bootstrapbutton:bb_text_alignment="center"
+	        bootstrapbutton:bb_type="primary" />
+    	<!-- End of Next Button  -->
+    	
+    </LinearLayout>
+    
+</ScrollView>

@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+        <!--  Question: Did you take any of these? -->
+	    <LinearLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal"
+	       android:layout_margin="32dp"
+	       android:background="#eeeeee">
+	       
+	       <com.beardedhen.androidbootstrap.FontAwesomeText
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="40sp"
+	           fontawesometext:fa_icon="fa-plus-square" />
+	
+	       <TextView 
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="32sp"
+	           android:text="@string/did_you_take_any_of_these_" />
+	       
+	    </LinearLayout>
+	    <!--  End Question -->
+	    
+	    
+	    <!--  Two Answers -->
+	   	<LinearLayout 
+	   	    android:layout_width="match_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="center" 
+	   	    android:orientation="vertical">
+	   	    
+	   	    <!--  1) LorTab  -->
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	        <com.beardedhen.androidbootstrap.BootstrapButton
+	   	            android:id="@+id/eatRadioYes"
+	   	            android:layout_width="wrap_content"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	            android:layout_marginBottom="16dp"
+	   	            android:text="@string/lortab"
+	   	            android:textSize="32sp"
+	   	            android:layout_weight="1"
+	   	            bootstrapbutton:bb_icon_left="fa-smile-o"
+	   	            bootstrapbutton:bb_text_alignment="center"
+	   	            bootstrapbutton:bb_type="default" />
+	   	        
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	    </LinearLayout>
+	   	    <!--  End of 1) Yes -->
+	   	    
+	   	    
+	   	    <!--  2) OxyContin -->
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	   	        
+	   	        <com.beardedhen.androidbootstrap.BootstrapButton
+	   	            android:id="@+id/eatRadioSomewhat"
+	   	            android:layout_width="wrap_content"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	            android:layout_marginBottom="16dp"
+	   	            android:text="@string/oxycontin"
+	   	            android:textSize="32sp"
+	   	            android:layout_weight="1"
+	   	            bootstrapbutton:bb_icon_left="fa-meh-o"
+	   	            bootstrapbutton:bb_text_alignment="center"
+	   	            bootstrapbutton:bb_type="default" />
+	   	        
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	   	        
+	   	   	</LinearLayout>
+	   	   	<!--  End of 2) Somewhat -->
+	   	   	    
+		</LinearLayout>
+	    <!--  End Two Answers -->
+	   	
+	   	
+	   	<!--  Next Button -->
+	    <com.beardedhen.androidbootstrap.BootstrapButton
+	        android:id="@+id/eatNext"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="16dp"
+	        android:layout_gravity="center"
+	        android:padding="16dp"
+	        android:gravity="right"
+	        android:textSize="32sp"
+	        android:text="@string/finish"
+	        android:enabled="false"
+	        bootstrapbutton:bb_icon_right="fa-arrow-circle-o-right"
+	        bootstrapbutton:bb_roundedCorners="true"
+	        bootstrapbutton:bb_text_alignment="center"
+	        bootstrapbutton:bb_type="primary" />
+	    <!--  End Next Button -->
+	    
+    </LinearLayout>
+    
+</ScrollView>
