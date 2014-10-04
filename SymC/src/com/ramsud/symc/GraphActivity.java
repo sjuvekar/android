@@ -58,10 +58,11 @@ public class GraphActivity extends Activity {
 						   int back_color,
 						   int layout_id) {
 		// Create graphview and setup parameters
-		GraphView graphView = new LineGraphView(this, title);
+		LineGraphView graphView = new LineGraphView(this, title);
 		
 		// Background color
 		graphView.setBackgroundColor(back_color);
+		graphView.setDrawBackground(true);
 		
 		// Y-labels
 		graphView.setVerticalLabels(labels);
