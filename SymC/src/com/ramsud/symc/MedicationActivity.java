@@ -88,7 +88,10 @@ public class MedicationActivity extends Activity {
 	        mOption = getArguments().getInt("option");
 	        
 	        // Create a new instance of TimePickerDialog and return it
-	        return new TimePickerDialog(getActivity(), this, hour, minute, DateFormat.is24HourFormat(getActivity()));
+	        TimePickerDialog ret_dialog =  new TimePickerDialog(getActivity(), this, hour, minute, 
+	        													DateFormat.is24HourFormat(getActivity()));
+	        ret_dialog.setTitle("When?");
+	        return ret_dialog;
 		}
 
 		public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
