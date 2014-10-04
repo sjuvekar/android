@@ -59,7 +59,7 @@
 	   	            android:layout_weight="1" />
 	
 	   	        <com.beardedhen.androidbootstrap.BootstrapButton
-	   	            android:id="@+id/eatRadioYes"
+	   	            android:id="@+id/medicationLortab"
 	   	            android:layout_width="wrap_content"
 	   	            android:layout_height="wrap_content"
 	   	            android:layout_gravity="center"
@@ -97,7 +97,7 @@
 	   	            android:layout_weight="1" />
 	   	        
 	   	        <com.beardedhen.androidbootstrap.BootstrapButton
-	   	            android:id="@+id/eatRadioSomewhat"
+	   	            android:id="@+id/medicationOxycortin"
 	   	            android:layout_width="wrap_content"
 	   	            android:layout_height="wrap_content"
 	   	            android:layout_gravity="center"
@@ -125,7 +125,7 @@
 	   	
 	   	<!--  Next Button -->
 	    <com.beardedhen.androidbootstrap.BootstrapButton
-	        android:id="@+id/eatNext"
+	        android:id="@+id/medicationFinish"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_margin="16dp"
