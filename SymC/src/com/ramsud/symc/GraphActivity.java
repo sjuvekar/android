@@ -31,14 +31,12 @@ public class GraphActivity extends Activity {
 		 
 		drawGraph(exampleSeries, 
 				  "Throat Pain", 
-				  new String[]{"Managable", "Moderate", "Bad"}, 
-				  Color.rgb(255, 165, 0),
+				  new String[]{"Bad", "Moderate", "Managable"}, 
 				  R.id.graphThroatPain);
 		
 		drawGraph(exampleSeries, 
 				  "Eating Difficulty", 
-				  new String[]{"None", "Moderate", "High"}, 
-				  Color.BLUE,
+				  new String[]{"High", "Moderate", "None"},
 				  R.id.graphEatingDifficulty);
 		
 		BootstrapButton start_button = (BootstrapButton) findViewById(R.id.graphStart);
@@ -55,13 +53,11 @@ public class GraphActivity extends Activity {
 	private void drawGraph(GraphViewSeries series, 
 						   String title, 
 						   String[] labels, 
-						   int back_color,
 						   int layout_id) {
 		// Create graphview and setup parameters
 		LineGraphView graphView = new LineGraphView(this, title);
 		
 		// Background color
-		graphView.setBackgroundColor(back_color);
 		graphView.setDrawBackground(true);
 		
 		// Y-labels
