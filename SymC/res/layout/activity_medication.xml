@@ -170,7 +170,7 @@
 	        bootstrapbutton:bb_roundedCorners="true"
 	        bootstrapbutton:bb_text_alignment="center"
 	        bootstrapbutton:bb_type="primary" />
-	    <!--  End Next Button -->
+	    <!--  End Finish Button -->
 	    
     </LinearLayout>
     
