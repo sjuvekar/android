@@ -58,20 +58,36 @@
 	   	    	    android:layout_marginBottom="16dp"
 	   	            android:layout_weight="1" />
 	
-	   	        <com.beardedhen.androidbootstrap.BootstrapButton
-	   	            android:id="@+id/medicationLortab"
-	   	            android:layout_width="wrap_content"
+	   	        <LinearLayout
+	   	            android:layout_width="match_parent"
 	   	            android:layout_height="wrap_content"
 	   	            android:layout_gravity="center"
-	   	            android:layout_marginBottom="16dp"
-	   	            android:text="@string/lortab"
-	   	            android:textSize="32sp"
-	   	            android:layout_weight="1"
-	   	            bootstrapbutton:bb_icon_left="fa-smile-o"
-	   	            bootstrapbutton:bb_text_alignment="center"
-	   	            bootstrapbutton:bb_type="default" />
+	   	            android:orientation="vertical"
+	   	            android:layout_weight="1" >
+
+	   	            <TextView
+	   	                android:layout_width="wrap_content"
+	   	                android:layout_height="0dp"
+	   	                android:layout_gravity="center"
+	   	                android:layout_marginBottom="16dp"
+	   	                android:layout_weight="1" 
+	   	                android:background="@drawable/lortab" />
 	   	        
-	   	        <TextView 
+	   	            <com.beardedhen.androidbootstrap.BootstrapButton
+	   	                android:id="@+id/medicationLortab"
+	   	                android:layout_width="wrap_content"
+	   	                android:layout_height="wrap_content"
+	   	                android:layout_gravity="center"
+	   	                android:layout_marginBottom="16dp"
+	   	                android:layout_weight="1"
+	   	                android:text="@string/lortab"
+	   	                android:textSize="32sp"
+	   	                bootstrapbutton:bb_text_alignment="center"
+	   	                bootstrapbutton:bb_type="default" />
+	   	            
+	   	        </LinearLayout>
+	   	        
+				<TextView 
 	   	            android:layout_width="0dp"
 	   	            android:layout_height="wrap_content"
 	   	            android:layout_gravity="center"
@@ -96,19 +112,34 @@
 	   	    	    android:layout_marginBottom="16dp"
 	   	            android:layout_weight="1" />
 	   	        
-	   	        <com.beardedhen.androidbootstrap.BootstrapButton
-	   	            android:id="@+id/medicationOxycortin"
-	   	            android:layout_width="wrap_content"
+	   	        <LinearLayout
+	   	            android:layout_width="match_parent"
 	   	            android:layout_height="wrap_content"
 	   	            android:layout_gravity="center"
-	   	            android:layout_marginBottom="16dp"
-	   	            android:text="@string/oxycontin"
-	   	            android:textSize="32sp"
-	   	            android:layout_weight="1"
-	   	            bootstrapbutton:bb_icon_left="fa-meh-o"
-	   	            bootstrapbutton:bb_text_alignment="center"
-	   	            bootstrapbutton:bb_type="default" />
+	   	            android:orientation="vertical"
+	   	            android:layout_weight="1" >
+
+	   	            <TextView
+	   	                android:layout_width="wrap_content"
+	   	                android:layout_height="0dp"
+	   	                android:layout_gravity="center"
+	   	                android:layout_marginBottom="16dp"
+	   	                android:layout_weight="1" 
+	   	                android:background="@drawable/oxycontin"/>
+	   	            
+					<com.beardedhen.androidbootstrap.BootstrapButton
+	   	        	    android:id="@+id/medicationOxycortin"
+	   	        	    android:layout_width="wrap_content"
+	   	        	    android:layout_height="wrap_content"
+	   	        	    android:layout_gravity="center"
+	   	        	    android:layout_marginBottom="16dp"
+	   	        	    android:layout_weight="1"
+	   	        	    android:text="@string/oxycontin"
+	   	        	    android:textSize="32sp"
+	   	        	    bootstrapbutton:bb_text_alignment="center"
+	   	        	    bootstrapbutton:bb_type="default" />
 	   	        
+	   	        </LinearLayout>
 	   	        <TextView 
 	   	            android:layout_width="0dp"
 	   	            android:layout_height="wrap_content"
@@ -123,7 +154,7 @@
 	    <!--  End Two Answers -->
 	   	
 	   	
-	   	<!--  Next Button -->
+	   	<!--  Finish Button -->
 	    <com.beardedhen.androidbootstrap.BootstrapButton
 	        android:id="@+id/medicationFinish"
 	        android:layout_width="wrap_content"
