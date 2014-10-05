@@ -4,8 +4,6 @@
     <string name="app_name">SymC</string>
     <string name="title_activity_throat_pain">How Bad is Your Throat Pain?</string>
     <string name="title_activity_eat">Can You Eat?</string>
-    <string name="can_you_eat_">Can You Eat?</string>
-    <string name="how_bad_is_your_throat_pain_">How bad is your throat pain?</string>
     <string name="under_control">Under Control</string>
     <string name="moderate">Moderate</string>
     <string name="bad">Bad</string>
@@ -21,7 +19,13 @@
     <string name="finish">Finish</string>
     <string name="throat_pain_selected">ThroatPainSelected</string>
     <string name="eat_selected">EatSelected</string>
-    <string name="title_activity_graph">Your Health</string>
+    <string name="title_activity_graph">Patient Health</string>
     <string name="hello_world">Hello world!</string>
-
+    <string name="title_activity_login">Log In</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user_name">User Name/Email</string>
+    <string name="password">Password</string>
+	<string name="retype_password">Retype Password</string>
+	
 </resources>

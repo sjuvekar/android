@@ -31,7 +31,7 @@
 	           android:layout_height="wrap_content"
 	           android:layout_margin="10dp"
 	           android:textSize="32sp"
-	           android:text="@string/how_bad_is_your_throat_pain_" />
+	           android:text="@string/title_activity_throat_pain" />
 	       
 	    </LinearLayout>
 	    <!--  End Question  -->

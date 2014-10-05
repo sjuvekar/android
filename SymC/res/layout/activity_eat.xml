@@ -31,7 +31,7 @@
 	           android:layout_height="wrap_content"
 	           android:layout_margin="10dp"
 	           android:textSize="32sp"
-	           android:text="@string/can_you_eat_" />
+	           android:text="@string/title_activity_eat" />
 	       
 	    </LinearLayout>
 	    <!--  End Question -->

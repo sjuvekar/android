@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+        <!--  Log In Promt -->
+	    <LinearLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal"
+	       android:layout_margin="32dp"
+	       android:background="#eeeeee">
+	       
+	       <com.beardedhen.androidbootstrap.FontAwesomeText
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="40sp"
+	           fontawesometext:fa_icon="fa-sign-in" />
+	
+	       <TextView 
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="32sp"
+	           android:text="@string/log_in" />
+	       
+	    </LinearLayout>
+	    <!--  End Log In Prompt -->
+	    
+	    
+	    <!--  Log In EditText -->
+	   	<LinearLayout 
+	   	    android:layout_width="match_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="center" 
+	   	    android:orientation="vertical">
+	   	    
+			<com.beardedhen.androidbootstrap.BootstrapEditText
+	   	            android:id="@+id/loginLogin"
+	   	            android:layout_width="match_parent"
+	   	            android:layout_height="0dp"
+	   	            android:layout_marginLeft="32dp"
+	   	            android:layout_marginRight="32dp"
+	   	            android:layout_gravity="center"
+	   	            android:textSize="32sp"
+	   	            android:hint="@string/user_name" 
+	   	            android:layout_weight="1" />
+	   	    
+			<com.beardedhen.androidbootstrap.BootstrapEditText
+	   	            android:id="@+id/loginPassword"
+	   	            android:layout_width="match_parent"
+	   	            android:layout_height="0dp"
+	   	            android:layout_marginLeft="32dp"
+	   	            android:layout_marginRight="32dp"
+	   	            android:layout_gravity="center"
+	   	            android:textSize="32sp"
+	   	            android:hint="@string/password" 
+	   	            android:inputType="textPassword"
+	   	            android:layout_weight="1" />
+	   	       	    
+		</LinearLayout>
+	    <!--  End Log In EditText -->
+	   	
+	   	<!--  Log In Button -->
+	    <com.beardedhen.androidbootstrap.BootstrapButton
+	        android:id="@+id/loginLoginButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="16dp"
+	        android:layout_gravity="center"
+	        android:padding="16dp"
+	        android:gravity="right"
+	        android:textSize="32sp"
+	        android:text="@string/log_in"
+	        bootstrapbutton:bb_icon_right="fa-sign-in"
+	        bootstrapbutton:bb_roundedCorners="true"
+	        bootstrapbutton:bb_text_alignment="center"
+	        bootstrapbutton:bb_type="primary" />
+	    <!--  End Log In Button -->
+	    
+	    
+	    <!--  Sign Up Promt -->
+	    <LinearLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal"
+	       android:layout_margin="32dp"
+	       android:background="#eeeeee">
+	       
+	       <com.beardedhen.androidbootstrap.FontAwesomeText
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="40sp"
+	           fontawesometext:fa_icon="fa-hand-o-right" />
+	
+	       <TextView 
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="32sp"
+	           android:text="@string/sign_up" />
+	       
+	    </LinearLayout>
+	    <!--  End Sign Up Prompt -->
+	    
+	    
+	    <!--  Sign Up EditText -->
+	   	<LinearLayout 
+	   	    android:layout_width="match_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="center" 
+	   	    android:orientation="vertical">
+	   	    
+			<com.beardedhen.androidbootstrap.BootstrapEditText
+	   	            android:id="@+id/signupSignup"
+	   	            android:layout_width="match_parent"
+	   	            android:layout_height="0dp"
+	   	            android:layout_marginLeft="32dp"
+	   	            android:layout_marginRight="32dp"
+	   	            android:layout_gravity="center"
+	   	            android:textSize="32sp"
+	   	            android:hint="@string/user_name" 
+	   	            android:layout_weight="1" />
+	   	    
+			<com.beardedhen.androidbootstrap.BootstrapEditText
+	   	            android:id="@+id/signupPassword"
+	   	            android:layout_width="match_parent"
+	   	            android:layout_height="0dp"
+	   	            android:layout_marginLeft="32dp"
+	   	            android:layout_marginRight="32dp"
+	   	            android:layout_gravity="center"
+	   	            android:textSize="32sp"
+	   	            android:hint="@string/password" 
+	   	            android:inputType="textPassword"
+	   	            android:layout_weight="1" />
+	   	       	    
+			<com.beardedhen.androidbootstrap.BootstrapEditText
+	   	            android:id="@+id/signupPasswordRetype"
+	   	            android:layout_width="match_parent"
+	   	            android:layout_height="0dp"
+	   	            android:layout_marginLeft="32dp"
+	   	            android:layout_marginRight="32dp"
+	   	            android:layout_gravity="center"
+	   	            android:textSize="32sp"
+	   	            android:hint="@string/retype_password" 
+	   	            android:inputType="textPassword"
+	   	            android:layout_weight="1" />
+			
+		</LinearLayout>
+	    <!--  End Sign Up EditText -->
+	   	
+	   	<!--  Sign Up Button -->
+	    <com.beardedhen.androidbootstrap.BootstrapButton
+	        android:id="@+id/signupSignupButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="16dp"
+	        android:layout_gravity="center"
+	        android:padding="16dp"
+	        android:gravity="right"
+	        android:textSize="32sp"
+	        android:text="@string/sign_up"
+	        bootstrapbutton:bb_icon_right="fa-hand-o-right"
+	        bootstrapbutton:bb_roundedCorners="true"
+	        bootstrapbutton:bb_text_alignment="center"
+	        bootstrapbutton:bb_type="primary" />
+	    <!--  End Next Button -->
+    </LinearLayout>
+    
+</ScrollView>
