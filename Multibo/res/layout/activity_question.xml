@@ -1,0 +1,217 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+        <!--  Odd Man Out Text -->
+	    <LinearLayout 
+	       android:layout_width="match_parent"
+	       android:layout_height="wrap_content"
+	       android:orientation="horizontal"
+	       android:layout_margin="32dp"
+	       android:background="#eeeeee">
+	       
+	       <com.beardedhen.androidbootstrap.FontAwesomeText
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="40sp"
+	           fontawesometext:fa_icon="fa-picture-o" />
+	
+	       <TextView 
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:layout_margin="10dp"
+	           android:textSize="32sp"
+	           android:text="@string/misfit_movie" />
+	       
+	    </LinearLayout>
+	    <!--  End Question -->
+	    
+	    
+	    <!--  Four Options -->
+	   	<LinearLayout 
+	   	    android:layout_width="match_parent"
+	   	    android:layout_height="wrap_content"
+	   	    android:layout_gravity="center" 
+	   	    android:orientation="vertical">
+	   	    
+	   	    <!--  1) Movie 1  -->
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	        <com.beardedhen.androidbootstrap.BootstrapButton
+	   	            android:id="@+id/movie1"
+	   	            android:layout_width="wrap_content"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	            android:layout_marginBottom="16dp"
+	   	            android:text="@string/movie_1"
+	   	            android:textSize="32sp"
+	   	            android:layout_weight="2"
+	   	            bootstrapbutton:bb_text_alignment="center"
+	   	            bootstrapbutton:bb_type="default" />
+	   	        
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	    </LinearLayout>
+	   	    <!--  End of Movie 1 -->
+	   	    
+	   	    
+	   	    <!--  2) Movie 2  -->
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	        <com.beardedhen.androidbootstrap.BootstrapButton
+	   	            android:id="@+id/movie2"
+	   	            android:layout_width="wrap_content"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	            android:layout_marginBottom="16dp"
+	   	            android:text="@string/movie_2"
+	   	            android:textSize="32sp"
+	   	            android:layout_weight="2"
+	   	            bootstrapbutton:bb_text_alignment="center"
+	   	            bootstrapbutton:bb_type="default" />
+	   	        
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	    </LinearLayout>
+	   	    <!--  End of Movie 2 -->
+	   	    
+	   	    
+	   	    <!--  3) Movie 3 -->
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	        <com.beardedhen.androidbootstrap.BootstrapButton
+	   	            android:id="@+id/movie3"
+	   	            android:layout_width="wrap_content"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	            android:layout_marginBottom="16dp"
+	   	            android:text="@string/movie_3"
+	   	            android:textSize="32sp"
+	   	            android:layout_weight="2"
+	   	            bootstrapbutton:bb_text_alignment="center"
+	   	            bootstrapbutton:bb_type="default" />
+	   	        
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	    </LinearLayout>
+	   	    <!--  End of Movie 3 -->
+	   	    
+	   	    
+	   	    <!--  1) Movie 4  -->
+	   	    <LinearLayout
+	   	        android:layout_width="match_parent"
+	   	        android:layout_height="wrap_content"
+	   	        android:layout_gravity="center"
+	   	        android:orientation="horizontal" >
+	
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	        <com.beardedhen.androidbootstrap.BootstrapButton
+	   	            android:id="@+id/movie4"
+	   	            android:layout_width="wrap_content"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	            android:layout_marginBottom="16dp"
+	   	            android:text="@string/movie_4"
+	   	            android:textSize="32sp"
+	   	            android:layout_weight="2"
+	   	            bootstrapbutton:bb_text_alignment="center"
+	   	            bootstrapbutton:bb_type="default" />
+	   	        
+	   	        <TextView 
+	   	            android:layout_width="0dp"
+	   	            android:layout_height="wrap_content"
+	   	            android:layout_gravity="center"
+	   	    	    android:layout_marginBottom="16dp"
+	   	            android:layout_weight="1" />
+	
+	   	    </LinearLayout>
+	   	    <!--  End of Movie 4 -->
+	   	    
+		</LinearLayout>
+	    <!--  End Four Options -->
+	   	
+	   	<!--  Next Button -->
+	    <com.beardedhen.androidbootstrap.BootstrapButton
+	        android:id="@+id/questionSubmit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="16dp"
+	        android:layout_gravity="center"
+	        android:padding="16dp"
+	        android:gravity="right"
+	        android:textSize="32sp"
+	        android:text="@string/submit"
+	        android:enabled="false"
+	        bootstrapbutton:bb_icon_right="fa-arrow-circle-o-right"
+	        bootstrapbutton:bb_roundedCorners="true"
+	        bootstrapbutton:bb_text_alignment="center"
+	        bootstrapbutton:bb_type="primary" />
+	    <!--  End Next Button -->
+	    
+    </LinearLayout>
+    
+</ScrollView>

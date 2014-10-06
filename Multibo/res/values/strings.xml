@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Login Activity -->
+    <string name="app_name">Multibo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="log_in">Log In</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="facebook_sign_up">Sign Up with Facebook</string>
+    <string name="google_sign_up">Sign Up with Google</string>
+    <string name="retype_password">Retype Password</string>
+    <string name="title_activity_question">QuestionActivity</string>
+    
+    <!--  Question Activity -->
+    <string name="misfit_movie">Which Movie is not Like Others?</string>
+	<string name="movie_1">Movie 1</string>
+	<string name="movie_2">Movie 2</string>
+	<string name="movie_3">Movie 3</string>
+	<string name="movie_4">Movie 4</string>
+	<string name="submit">Submit</string>
+	
+</resources>
